@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 
 :root {
   --blue: #0065fe;
@@ -11,7 +11,7 @@
 
 * {
   scroll-behavior: smooth;
-  font-family: 'Gilroy-Medium';
+  font-family: "Gilroy-Medium";
   box-sizing: border-box;
 }
 
@@ -170,7 +170,7 @@ header {
     var(--white)
   );
   background-image: linear-gradient(to bottom, transparent, var(--white));
-  background-image: url(../images/svgs/hero-bg.svg);
+  background-image: url(assets/images/svgs/hero-bg.svg);
   background-size: cover;
   background-position: center;
   padding-top: 12px;
@@ -196,7 +196,7 @@ nav ul li.active a {
   font-size: 48px;
   line-height: 96px;
   overflow: visible;
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
 }
 
 .hero-text h1 > span {
@@ -268,7 +268,7 @@ nav ul li.active a {
   font-size: 32px;
   line-height: 78px;
   font-weight: 500;
-  font-family: 'Gilroy-Medium';
+  font-family: "Gilroy-Medium";
 }
 
 .features .desc {
@@ -324,7 +324,7 @@ nav ul li.active a {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 8px;
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
 }
 
 .single-pricing-card .desc {
@@ -516,7 +516,7 @@ select:focus {
   content: url(../images/icons/plus.svg);
 }
 
-.faq-wrapper ul li input[type='radio'] {
+.faq-wrapper ul li input[type="radio"] {
   position: absolute;
   cursor: pointer;
   width: 100%;
@@ -550,7 +550,7 @@ select:focus {
   opacity: 0;
 }
 
-.faq-wrapper ul li input[type='radio']:checked ~ p {
+.faq-wrapper ul li input[type="radio"]:checked ~ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 32px;
@@ -561,7 +561,7 @@ select:focus {
   z-index: 2;
 }
 
-.faq-wrapper ul li input[type='radio']:checked ~ i:after {
+.faq-wrapper ul li input[type="radio"]:checked ~ i:after {
   content: url(../images/icons/minus.svg);
 }
 
@@ -828,7 +828,7 @@ footer > img:last-child {
     margin: 0;
   }
 
-  .faq-wrapper ul li input[type='radio']:checked ~ p {
+  .faq-wrapper ul li input[type="radio"]:checked ~ p {
     font-size: 14px;
     line-height: 25px;
   }
