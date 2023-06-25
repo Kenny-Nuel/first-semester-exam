@@ -513,7 +513,7 @@ select:focus {
 
 .faq-wrapper ul li i:after {
   position: absolute;
-  content: url(../images/icons/plus.svg);
+  content: url(assets/images/icons/plus.svg);
 }
 
 .faq-wrapper ul li input[type="radio"] {
@@ -562,7 +562,7 @@ select:focus {
 }
 
 .faq-wrapper ul li input[type="radio"]:checked ~ i:after {
-  content: url(../images/icons/minus.svg);
+  content: url(assets/images/icons/minus.svg);
 }
 
 @keyframes flipdown {
